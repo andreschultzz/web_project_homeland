@@ -1,0 +1,33 @@
+.lead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+}
+
+.lead__title {
+    font-weight: 900;
+    font-size: 96px;
+    width: 56vw;
+    line-height: 100px;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 10.5%;
+    margin: 0 0;
+} 
+
+.lead__subtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    width: 56vw;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 3.5%;
+    margin: 0 0;
+}
+
+.lead__image {
+    width: 100%;
+    padding-top: 7.5%;
+}

@@ -1,0 +1,91 @@
+@media screen and (max-width : 768px) {
+    .page{
+        width: 100vw;
+        padding-left: 0;
+        padding-right: 0;
+        align-items: center;
+    }
+    .lead{
+        width: 100%;
+    }
+    .lead__title{
+        font-size: 75px;
+        line-height: 79px;
+        width: 90%;
+    }
+    .lead__subtitle{
+        font-size: 30px;
+        line-height: 36px;
+        width: 90%;
+    }
+    .lead__image{
+        width: 100vw;
+        padding-top: 4%;
+    }
+    .intro{
+        align-items: center;
+    }
+    .intro__title{
+        font-size: 45px;
+        line-height: 49px;
+        width: 94%;
+    }
+    .intro__text{
+        width: 94%;
+    }
+    .quote{
+        width: 94%;
+    }
+    .quote__author{
+        text-align: right;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .page{
+        width: 100vw;
+        padding-left: 0;
+        padding-right: 0;
+        align-items: center;
+    }
+    .header{
+        justify-content: center;
+    }
+    .header__logo{
+        width: 188px;
+    }
+    .lead{
+        width: 100%;
+    }
+    .lead__title{
+        font-size: 40px;
+        line-height: 44px;
+        width: 70%;
+    }
+    .lead__subtitle{
+        font-size: 16px;
+        line-height: 20px;
+        width: 90%;
+    }
+    .lead__image{
+        width: 100vw;
+    }
+    .intro{
+        align-items: center;
+    }
+    .intro__title{
+        font-size: 32px;
+        line-height: 35px;
+        width: 90%;
+    }
+    .intro__text{
+        width: 90%;
+    }
+    .quote{
+        width: 90%;
+        line-height: 30px;
+    }
+    .quote__author{
+        text-align: right;
+    }
+}

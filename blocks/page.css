@@ -1,0 +1,16 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2A2C2F;
+    background-size: cover;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/* Oculta a barra de rolagem para o Chrome, Safari e Edge. */
+body::-webkit-scrollbar {
+    display: none;
+}
