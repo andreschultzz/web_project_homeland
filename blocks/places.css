@@ -1,0 +1,55 @@
+.places {
+}
+
+.places-layout {
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 48px 40px;
+}
+
+.places-layout__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    letter-spacing: 0%;
+    margin: 0 0;
+    align-self: flex-end;
+}
+
+.places-layout__image {
+    width: 100%;
+    height: 492px;
+    grid-row: 2/3;
+}
+
+.places-layout__text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0%;
+    margin: 0 0;
+    max-width: 100%;
+    padding-bottom: 5%;
+    grid-row: 2/5;
+}
+
+.places-layout__text_bottom {
+    padding-bottom: 0;
+}
+
+.places-layout__button {
+    background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+    width: 79%;
+    height: 200%;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FFF;
+    grid-row: ;
+}
