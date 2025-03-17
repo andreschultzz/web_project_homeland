@@ -24,10 +24,11 @@
     flex-wrap: wrap;
     text-align: center;
     padding-top: 3.5%;
+    padding-bottom: 7.5%;
     margin: 0 0;
 }
 
 .lead__image {
     width: 100%;
-    padding-top: 7.5%;
+    box-shadow: 10px 10px 10px 0px #00000040;
 }
