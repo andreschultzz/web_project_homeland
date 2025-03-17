@@ -14,7 +14,6 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    letter-spacing: 0%;
     margin: 0 0;
     align-self: flex-end;
 }
@@ -34,7 +33,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
-    letter-spacing: 0%;
     margin: 0 0;
     max-width: 100%;
     padding-bottom: 5%;
